@@ -1,6 +1,7 @@
 import csv
 import requests
 from bs4 import BeautifulSoup
+import random
 
 #1 page
 page=requests.get("https://www.amazon.com/best-sellers-books-Amazon/zgbs/books/ref=zg_bs_pg_1?_encoding=UTF8&pg=1&ajax=1")
